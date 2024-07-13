@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Trang cá nhân - Đặng Duy Hưng</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="profile container">
+      <!-- Theme button -->
+      <i class="ri-moon-line change-theme" id="theme-button"></i>
+      <div class="profile__container grid">
+        <div class="profile__data">
+          <div class="profile__border">
+            <div class="profile__perfil">
+              <!-- Insert your image, according to the example size of the portfolio -->
+              <img src="assets/img/perfil.png" alt="">
+            </div>
+          </div>
+          <h2 class="profile__name">Dang Duy Hung</h2>
+          <h3 class="profile__profession">Sieu Dep Trai ❔</h3>
+          <ul class="profile__social">
+            <a href="https://www.instagram.com/ddh.331" target="_blank" class="profile__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" class="profile__social-link">
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+            <a href="https://github.com/" target="_blank" class="profile__social-link">
+              <i class="ri-github-line"></i>
+            </a>
+          </ul>
+        </div>
+        <div class="profile__info grid">
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">100%</h3>
+            <p class="profile__info-description"> Lovely <br>
+            </p>
+          </div>
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">2+</h3>
+            <p class="profile__info-description"> Completed <br>Projects </p>
+          </div>
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">06 - 23h</h3>
+            <p class="profile__info-description"> Online <br>Time </p>
+          </div>
+        </div>
+        <div class="profile__buttons">
+          <!-- Insert your CV -->
+          <a download="" href="https://www.facebook.com/profile.php?id=100095262108924&mibextid=LQQJ4d" class="button"> Facebook 🍥 </i>
+          </a>
+          <div class="profile__buttons-small">
+            <!-- Insert a real number plus country code -->
+            <a href="https://zalo.me/0787584022" target="_blank" class="button button__small button__gray">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+            <!-- Insert your brand name or profile -->
+            <a href="https://m.me/100095262108924" target="_blank" class="button button__small button__gray">
+              <i class="ri-messenger-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <section class="filters container">
+        <!--=============== FILTERS TABS ===============-->
+        <ul class="filters__content">
+          <button class="filters__button filter-tab-active" data-target="#projects"> Projects </button>
+          <button class="filters__button" data-target="#skills"> Skills </button>
+        </ul>
+        <div class="filters__sections">
+          <!--=============== PROJECTS ===============-->
+          <div class="projects__content grid filters__active" data-content id="projects">
+            <article class="projects__card">
+              <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+              <img src="assets/img/project1.jpg" alt="" class="projects__img">
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Map IOS</span>
+                  <h3 class="projects__title">Map S23</h3>
+                  <a href="https://install.appcenter.ms/users/norameoo/apps/maps12-aov/distribution_groups/mapkin" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article class="projects__card">
+              <img src="assets/img/project2.jpg" alt="" class="projects__img">
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Website</span>
+                  <h3 class="projects__title">AOV Winrate Calculator</h3>
+                  <a href="https://n0r4xdzvn.github.io/aov-winrate-website/" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!--=============== SKILLS ===============-->
+          <div class="skills__content grid" data-content id="skills">
+            <div class="skills__area">
+              <h3 class="skills__title">Frontend Developer</h3>
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">HTML</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">CSS</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">JavaScript</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">React</h3>
+                      <span class="skills__level">None</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Bootstrap</h3>
+                      <span class="skills__level">None</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Git</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skills__area">
+              <h3 class="skills__title">Backend Developer</h3>
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">PHP</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">MySQL</h3>
+                      <span class="skills__level">None</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Firebase</h3>
+                      <span class="skills__level">None</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Python</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Node Js</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">𝘪𝘶 𝘘𝘶𝘺𝘯𝘩 𝘈𝘯𝘩</div>
+  <div class="snowflake">💘</div>
+  <div class="snowflake">𝘪𝘶 𝘘𝘶𝘺𝘯𝘩 𝘈𝘯𝘩</div>
+  <div class="snowflake">💘</div>
+  <div class="snowflake">𝘪𝘶 𝘘𝘶𝘺𝘯𝘩 𝘈𝘯𝘩</div>
+  <div class="snowflake">💘</div>
+  <div class="snowflake">𝘪𝘶 𝘘𝘶𝘺𝘯𝘩 𝘈𝘯𝘩</div>
+  <div class="snowflake">💘</div>
+  <div class="snowflake">𝘪𝘶 𝘘𝘶𝘺𝘯𝘩 𝘈𝘯𝘩</div>
+  <div class="snowflake">💘</div>
+  <div class="snowflake">𝘪𝘶 𝘘𝘶𝘺𝘯𝘩 𝘈𝘯𝘩</div>
+  <div class="snowflake">💘</div>
+</div>
+<style>
+  @-webkit-keyframes snowflakes-fall {
+    0% {top:-10%}
+    100% {top:100%}
+  }
+  @-webkit-keyframes snowflakes-shake {
+    0%,100% {-webkit-transform:translateX(0);transform:translateX(0)}
+    50% {-webkit-transform:translateX(80px);transform:translateX(80px)}
+  }
+  @keyframes snowflakes-fall {
+    0% {top:-10%}
+    100% {top:100%}
+  }
+  @keyframes snowflakes-shake {
+    0%,100%{ transform:translateX(0)}
+    50% {transform:translateX(80px)}
+  }
+  .snowflake {
+    color: #fff;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 5px #000;
+    position:fixed;
+    top:-10%;
+    z-index:9999;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor:default;
+    -webkit-animation-name:snowflakes-fall,snowflakes-shake;
+    -webkit-animation-duration:10s,3s;
+    -webkit-animation-timing-function:linear,ease-in-out;
+    -webkit-animation-iteration-count:infinite,infinite;
+    -webkit-animation-play-state:running,running;
+    animation-name:snowflakes-fall,snowflakes-shake;
+    animation-duration:10s,3s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running;
+  }
+  .snowflake:nth-of-type(0){
+    left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s
+  }
+  .snowflake:nth-of-type(1){
+    left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s
+  }
+  .snowflake:nth-of-type(2){
+    left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s
+  }
+  .snowflake:nth-of-type(3){
+    left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s
+  }
+  .snowflake:nth-of-type(4){
+    left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s
+  }
+  .snowflake:nth-of-type(5){
+    left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s
+  }
+  .snowflake:nth-of-type(6){
+    left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s
+  }
+  .snowflake:nth-of-type(7){
+    left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s
+  }
+  .snowflake:nth-of-type(8){
+    left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s
+  }
+  .snowflake:nth-of-type(9){
+    left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s
+  }
+  .snowflake:nth-of-type(10){
+    left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s
+  }
+  .snowflake:nth-of-type(11){
+    left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s
+  }
+    </style>
+    </main>
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+      <span class="footer__copy"> &#169; Powered by n0r4xdzvn. </span>
+    </footer>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
